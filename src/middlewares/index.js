@@ -1,5 +1,5 @@
 import encoding from './encoding.js'
 
-export default (app) => {
+export default app => {
   encoding(app)
 }

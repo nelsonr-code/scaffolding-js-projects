@@ -1,5 +1,5 @@
-import express from 'express';
+import express from 'express'
 
-export default (app)  => {
-  app.use(express.json());
+export default app => {
+  app.use(express.json())
 }

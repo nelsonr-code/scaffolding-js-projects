@@ -1,8 +1,8 @@
-import { Router } from 'express';
+import { Router } from 'express'
 import { getRequest } from './controller.js'
 
-const ComponentRouter = Router();
+const ComponentRouter = Router()
 
-ComponentRouter.get('/', getRequest);
+ComponentRouter.get('/', getRequest)
 
-export default ComponentRouter;
+// export default ComponentRouter;

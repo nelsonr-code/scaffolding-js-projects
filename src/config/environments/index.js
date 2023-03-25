@@ -1,12 +1,12 @@
-import dotenv from 'dotenv';
-dotenv.config();
-import DEV_CONFIG from './dev.js';
+import dotenv from 'dotenv'
+import DEV_CONFIG from './dev.js'
+dotenv.config()
 
-const { NODE_ENV } = process.env;
-let currentEnv = DEV_CONFIG;
+const { NODE_ENV } = process.env
+let currentEnv = DEV_CONFIG
 
 if (NODE_ENV === 'production') {
-  currentEnv = null;
+  currentEnv = null
 }
 
-export default currentEnv;
+export default currentEnv

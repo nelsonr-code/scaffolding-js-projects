@@ -1,8 +1,8 @@
-import { Router } from 'express';
-import ComponentRouter from '../components/component/routes.js';
+import { Router } from 'express'
+import ComponentRouter from '../components/component/routes.js'
 
-const Routes = Router();
+const Routes = Router()
 
-Routes.use('/', ComponentRouter);
+Routes.use('/', ComponentRouter)
 
-export default Routes;
+export default Routes
