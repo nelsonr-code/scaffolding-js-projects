@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"paths": {
+			"$/*": ["src/*"],
+			// "Api/*": ["Api/*"],
+			// "Assets/*": ["Assets/*"],
+			// "$Config": ["src/Config"],
+			// "$Config/*": ["src/Config/*"],
+			// "Helpers/*": ["Helpers/*"],
+			// "Middlewares/*": ["Middlewares/*"],
+		}
+	},
+	// "include": ["src/**/*"],
+	// "exclude": ["node_modules"],
+}
